@@ -1,3 +1,11 @@
-genome/
-edge_file/
-sample/
+data/
+results/
+__pycache__/
+*.pt
+*.pth
+*.pkl
+*.npy
+*.npz
+*.vcf
+*.vcf.gz
+*.tbi
