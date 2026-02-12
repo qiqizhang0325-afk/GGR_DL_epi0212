@@ -20,7 +20,7 @@ from pathlib import Path
 from tqdm import tqdm
 from torch_geometric.loader import DataLoader
 
-from models import HGTRegressor, save_checkpoint
+from ggr_dl.modeling.models import HGTRegressor, save_checkpoint
 
 # 用于从文件名中提取 sample_id：
 # sample_<sample_id>_mutant_graph.pt

@@ -11,7 +11,7 @@ import torch
 from tqdm import tqdm
 from torch_geometric.data import Batch
 
-from models import load_model_from_checkpoint
+from ggr_dl.modeling.models import load_model_from_checkpoint
 
 PT_RE = re.compile(r"^sample_(.+)_mutant_graph\.pt$")
 
